@@ -6,7 +6,7 @@
     'summary': 'Control de Base Imponible',
     'description': 'Campos para ver cantidades facturadas, pendiente de entrega o de factura',
     'author': 'oscarsidsa81',
-    'depends': ['base','sale'],
+    'depends': ['base','sale_management'],
     'data': [
         'views/sid_sale_order_amount_control.xml',
         'models/sid_sale_order_amount_control_fields.py'
