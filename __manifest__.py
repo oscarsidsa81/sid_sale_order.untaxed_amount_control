@@ -1,5 +1,5 @@
 {
-    'name': 'sid_sale_order.untaxed_amount_control',
+    'name': 'sid_sale_order_amount_control',
     'version': '1.0',
     'category': 'Sales',
     'license': 'AGPL-3',
