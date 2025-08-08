@@ -14,7 +14,7 @@ class SaleOrder(models.Model):
 
     excesos_pendientes = fields.Monetary(
         string="Excesos Pend.",
-        compute="_compute_excesos",
+        compute="_compute_excesos_pendientes",
         store=True,
         readonly=True,
         currency_field='currency_id',
