@@ -1,0 +1,17 @@
+{
+    'name': 'sid_sale_order.untaxed_amount_control',
+    'version': '1.0',
+    'category': 'Sales',
+    'license': 'AGPL-3',
+    'summary': 'Control de Base Imponible',
+    'description': 'Campos para ver cantidades facturadas, pendiente de entrega o de factura',
+    'author': 'oscarsidsa81',
+    'depends': ['base','sale'],
+    'data': [
+        'views/sid_sale_order_amount_control.xml',
+        'models/sid_sale_order_amount_control_fields.py'
+    ],
+    'installable': True,
+    'auto_install': True,
+    'application': False,
+}
